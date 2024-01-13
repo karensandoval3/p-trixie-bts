@@ -39,7 +39,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    /* margin-left: 15%; */
+    margin-left: 15%;
 }
 
 .wrapper{
@@ -141,20 +141,17 @@ footer p{
         flex-wrap: wrap;
         justify-content: center !important;
     }
-    
-}
-
-/* @media screen and (max-width:480px) {
-   
-    #intro .textos{
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
     #local {
         margin: 0;
     }
-} */
+    
+}
+
+@media screen and (max-width:480px) {
+    #local {
+        margin: 0;
+    }
+} 
 
 /*MEDIA QUERIES PANTALLA LG*/
 
