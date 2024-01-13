@@ -144,12 +144,18 @@ footer p{
     #local {
         margin: 0;
     }
+    #local .mapa{
+        margin: 20px;
+    }
     
 }
 
 @media screen and (max-width:480px) {
     #local {
         margin: 0;
+    }
+    #local .mapa{
+        margin: 20px;
     }
 } 
 
